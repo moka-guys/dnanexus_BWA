@@ -52,7 +52,7 @@ name="$reads_fastqgz_prefix"
 # Remove any _R1 / _1 suffixes
 name="${name%_1}"
 name="${name%_R1}"
-mkdir -p ~/out/sorted_bam/ ~/out/sorted_bai/
-mv output.bam ~/out/sorted_bam/"$name".bam
-mv output.bam.bai ~/out/sorted_bai/"$name".bai
+mkdir -p ~/out/sorted_bam/output/ ~/out/sorted_bai/output/
+mv output.bam ~/out/sorted_bam/output/"$name".bam
+mv output.bam.bai ~/out/sorted_bai/output/"$name".bai
 dx-upload-all-outputs --parallel
