@@ -1,7 +1,7 @@
 {
   "name": "bwa_mem_fastq_read_mapper",
   "title": "BWA-MEM FASTQ Read Mapper",
-  "summary": "Maps FASTQ reads (paired or unpaired) to a reference genome with the BWA-MEM algorithm.\nIExpected input files are:\n\t\t - read one fastq file(required)\n\t\t - read two fastq file(optional)\n\t\t -  reference genome (BWA index (tar.gz)) (Required). This can be found in the public DNAnexus Reference Genomes project.\n\nThe bam and bai files produced are saved to a folder /output",
+  "summary": "Maps FASTQ reads (paired or unpaired) to a reference genome with the BWA-MEM algorithm",
   "tags": [
     "Read Mapping"
   ],
