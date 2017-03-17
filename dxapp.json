@@ -1,7 +1,7 @@
 {
   "name": "bwa_mem_fastq_read_mapper",
-  "title": "v1.1.1 - BWA-MEM FASTQ Read Mapper",
-  "summary": "Maps FASTQ reads (paired or unpaired) to a reference genome with the BWA-MEM algorithm",
+  "title": "BWA-MEM FASTQ Read Mapper",
+  "summary": "v1.1.1 -  Maps FASTQ reads (paired or unpaired) to a reference genome with the BWA-MEM algorithm",
   "tags": [
     "Read Mapping"
   ],
