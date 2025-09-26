@@ -1,12 +1,12 @@
 {
-  "name": "bwa_mem_fastq_read_mapper_v1.3",
-  "title": "BWA-MEM FASTQ Read Mapper v1.3",
-  "summary": "v1.3 -  Maps FASTQ reads (paired or unpaired) to a reference genome with the BWA-MEM algorithm",
+  "name": "bwa_mem_fastq_read_mapper_v1.3.1",
+  "title": "BWA-MEM FASTQ Read Mapper v1.3.1",
+  "summary": "v1.3.1 -  Maps FASTQ reads (paired or unpaired) to a reference genome with the BWA-MEM algorithm",
   "tags": [
     "Read Mapping"
   ],
   "properties": {
-    "github release": "v1.3"
+    "github release": "v1.3.1"
   },
   "dxapi": "1.0.0",
   "inputSpec": [
@@ -33,9 +33,9 @@
       "patterns": ["*.bwa-index.tar.gz"],
       "suggestions": [
         {
-          "project": "project-BQpp3Y804Y0xbyG4GJPQ01xv",
+          "project": "project-G4FQBKXKJ76BXF1XBy4F97Z1",
           "path": "/",
-          "region": "aws:us-east-1",
+          "region": "aws:eu-west-2-g",
           "name": "DNAnexus Reference Genomes"
         }
       ]
@@ -146,15 +146,15 @@
   ],
   "runSpec": {
     "systemRequirementsByRegion": {
-      "aws:us-east-1": {
+      "aws:eu-west-2-g": {
         "main": {
-          "instanceType": "mem1_ssd1_x8"
+          "instanceType": "mem1_ssd1_v2_x8"
         }
       }
     },
     "systemRequirements": {
       "main": {
-        "instanceType": "mem1_ssd1_x8"
+        "instanceType": "mem1_ssd1_v2_x8"
       }
     },
     "file": "src/code.sh",

@@ -1,4 +1,4 @@
-# BWA-MEM FASTQ Read Mapper v1.3
+# BWA-MEM FASTQ Read Mapper v1.3.1
 
 ## What does this app do?
 
